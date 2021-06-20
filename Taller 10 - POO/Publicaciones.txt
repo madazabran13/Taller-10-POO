@@ -1,0 +1,25 @@
+
+ISBN: 123
+Titulo: tacp
+Año de publicacion: 2021
+Autor: miguelkai
+Precio: 13500.0
+Numero de paginas: 25
+Año de ediciom: 2013
+
+ISBN: 1345
+Titulo: Audiolibro1
+Año de publicacion: 2011
+Autor: andju
+Precio: 271600.0
+Duracion: 13.0
+Formato: mp4
+Peso: 24.0
+
+ISBN: 13
+Titulo: t13
+Año de publicacion: 1627
+Autor: mm
+Precio: 131627.0
+Numero de paginas: 13
+Año de ediciom: 13
