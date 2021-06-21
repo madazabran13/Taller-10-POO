@@ -142,7 +142,7 @@ public class VistaConsola {
 
             Publicacion Libro = new Libro(nPaginas, Edicion, isbn, Titulo, Autor, Anio, Costo);
             this.logica.addPublicacion(Libro);
-        } catch (ExcepcionesAccesoDatos ex) {
+        } catch (IOException ex) {
             System.out.print(ex.getMessage());
         }
 
@@ -184,7 +184,7 @@ public class VistaConsola {
 
             Publicacion AudioLibro = new AudioLibro(Duracion, Formato, Peso, isbn, Titulo, Autor, Anio, Costo);
             this.logica.addPublicacion(AudioLibro);
-        } catch (ExcepcionesAccesoDatos ex) {
+        } catch (IOException ex) {
             System.out.print(ex.getMessage());
         }
 
@@ -210,7 +210,7 @@ public class VistaConsola {
                 System.out.println(pub);
             }
             
-        } catch (ExcepcionesAccesoDatos ex) {
+        } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
     }
@@ -225,7 +225,7 @@ public class VistaConsola {
             for (Publicacion i : lista) {
                 System.out.println(i);
             }
-        } catch (ExcepcionesAccesoDatos ex) {
+        } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
     }
@@ -241,7 +241,7 @@ public class VistaConsola {
                 List<Publicacion> lista = this.logica.consultaPublicaciones();
                 Publicacion pub = this.logica.buscarPublicacion(new Libro(isbn));
                 this.logica.eliminarPublicacion(pub, isbn);
-            } catch (ExcepcionesAccesoDatos ex) {
+            } catch (IOException ex) {
                 System.out.println(ex.getMessage());
             }  
     }

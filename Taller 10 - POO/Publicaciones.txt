@@ -23,3 +23,33 @@ Autor: mm
 Precio: 131627.0
 Numero de paginas: 13
 Año de ediciom: 13
+
+ISBN: 1212
+Titulo: hghtht
+Año de publicacion: 2210
+Autor: mm
+Precio: 1125.0
+Numero de paginas: 2222
+Año de ediciom: 2012
+
+ISBN: 584
+Titulo: gdrger
+Año de publicacion: 2021
+Autor: herhe
+Precio: 121510.0
+Numero de paginas: 1023
+Año de ediciom: 2102
+741;rgefg;515;ergrg;1012221.0;
+Numero de paginas: 123654
+Año de ediciom: 2021
+22222;hrth;65655;hrth;1512.0;
+Numero de paginas: 2424
+Año de ediciom: 424
+
+ISBN: 22324
+Titulo: mghmg
+Año de publicacion: 2022
+Autor: yjty
+Precio: 121510.0
+Numero de paginas: 152121
+Año de ediciom: 2102
